@@ -1,0 +1,14 @@
+/project-root
+  /css
+    styles.css
+  /img
+    photo1.jpg
+    photo2.jpg
+    photo3.jpg
+    dylandbrady.jpg
+    gecsa1.jpg
+    gecsa2.jpg
+    photo4.jpg
+  /js
+    script.js
+  index.html

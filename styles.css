@@ -1,0 +1,150 @@
+/* Common Red Color */
+:root {
+    --red-color: #ff2900; /* Bright red color */
+    --highlight-color: #ffffff; /* Bright orange color for text */
+    --dark-overlay: rgba(0, 0, 0, 0.8); /* Darker overlay for hover */
+    --text-color: #000000; /* Black text color */
+    --padding: 5px; /* Minimum padding for the description */
+}
+
+.girassol-regular {
+  font-family: "Girassol", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    background: url('img/Artboard 1.png') no-repeat center center fixed; /* Background image */
+    background-size: cover; /* Cover the entire page */
+    color: var(--text-color);
+    font-weight: 700; /* Bolder font */
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase; /* Make all text uppercase */
+}
+
+.container {
+    max-width: 100%; /* Full width */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width calculation */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content */
+}
+
+/* Modal styles */
+.photo-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.8); /* Black background with opacity */
+    align-items: center; /* Center the content */
+    justify-content: center; /* Center the content */
+}
+
+.modal-image {
+    max-width: 90%; /* Responsive max width */
+    max-height: 80vh; /* Responsive max height */
+    margin: auto; /* Center image horizontally */
+    justify: center;
+}
+
+.modal-description {
+    color: #ffffff; /* White text color */
+    font-size: 18px; /* Adjust text size */
+    text-align: center; /* Center text */
+    margin-top: 10px; /* Space between image and description */
+    opacity: 0;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: #ffffff; /* White color */
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1001; /* Make sure it’s on top of the modal */
+}
+
+.close-modal:hover,
+.close-modal:focus {
+    color: #ff2900; /* Highlight color on hover */
+}
+.photo-modal {
+    transition: opacity 0.3s ease;
+}
+
+/* Masonry-like effect for photo gallery */
+.photo-gallery {
+    column-count: 3; /* Three columns layout */
+    column-gap: 25px; /* Gap between photos */
+    max-width: 100%; /* Full width */
+    width: 100%; /* Full width */
+    padding: 0; /* Remove any default padding */
+}
+
+/* Photo item styling */
+.photo-item {
+    display: inline-block;
+    margin-bottom: 20px; /* Space between rows */
+    width: 100%; /* Full width of the column */
+    position: relative;
+}
+
+/* Photo image styling */
+.photo-item img {
+    max-width: 100%; /* Responsive image width */
+    object-fit: cover; /* Cover the photo container */
+    border-radius: 5px; /* Less rounded corners */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Transition for hover effects */
+}
+
+/* Photo item hover effect */
+.photo-item:hover img {
+    opacity: 0.6; /* Darken photo on hover */
+    color: rgba(1, 1, 1, .4); /* Bright orange color for the text */
+    transform: scale(1.05); /* Slightly larger zoom effect on hover */
+}
+
+/* Description styling */
+.description {
+    position: absolute;
+    bottom: 50%; /* Place the description just above the center line */
+    right: 50%;
+    color: var(--highlight-color); /* Bright orange color for the text */
+    padding: var(--padding); /* Padding for the text */
+    font-size: 20px; /* Adjusted text size */
+    font-weight: 700; /* Bolder font */
+    opacity: 0; /* Hide description initially */
+    transition: opacity 0.3s ease; /* Transition for hover effects */
+    max-width: calc(100% - 10px); /* Ensure it doesn't overflow the photo */
+}
+
+/* Show description on hover */
+.photo-item:hover .description {
+    opacity: 1; /* Show description on hover */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 767px) {
+    .photo-gallery {
+        column-count: 2; /* Two columns layout for mobile */
+    }
+    .description {
+         font-size: 12px; /* Adjusted text size */  
+    }
+}
+
+@media (max-width: 479px) {
+    .container {
+        padding-bottom: 20px; /* Adjusted bottom padding for very small screens */
+    }
+}
