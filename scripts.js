@@ -64,7 +64,7 @@ const photos = [
 { src: 'img/75_AntwerpAcademy_ShowPoster.jpg', description: '', tags: 'Antwerp Academy, fashion research, runway collections' },																									
 { src: 'img/77_Margiela_1996.jpg', description: 'Margiela', tags: 'Margiela, fashion history' },																									
 { src: 'img/78_AnnD_1992.jpg', description: 'Ann Demeulemeester 1992', tags: 'Ann Demeulemeester, 1992, fashion history' },																									
-{ src: 'img/79_Margiela_1989.jpg', description: 'Margiela', tags: 'Margiela 1989, fashion history, archive research, maison martin margiela 1980s },																									
+{ src: 'img/79_Margiela_1989.jpg', description: 'Margiela', tags: 'Margiela 1989, fashion history, archive research, maison martin margiela 1980s' },																									
 { src: 'img/78_Margiela_1989.jpg', description: 'Margiela', tags: 'Margiela 1989, fashion history, archive research, maison martin margiela 1989' },																									
 { src: 'img/83_JeanPaulGaultier_AW1995.jpg', description: 'Jean Paul Gaultier AW1995', tags: 'Jean Paul Gaultier, AW1995, runway collections' },																									
 { src: 'img/84_PierreCardin_1979.jpg', description: 'Pierre Cardin 1979', tags: 'Pierre Cardin, 1979, fashion history' },																									
