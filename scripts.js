@@ -31,7 +31,6 @@ const photos = [
     { src: 'img/41_vogue the jewelry.png', description: 'Vogue Jewelry', tags: 'Vogue, jewelry, fashion magazine' },
     { src: 'img/02_Junyawatanabe_2001_commedesgarcons2.png', description: 'Junya Watanabe 2001', tags: 'Junya Watanabe, 2001, commedesgarcons' },
     { src: 'img/72_Margiela_AW19971998.jpg', description: 'Margiela AW1997/1998', tags: 'Margiela, AW1997/1998, runway collections' },
-    { src: 'img/43_HussienChalayan_1.png', description: 'Hussein Chalayan', tags: 'Hussein Chalayan, fashion research, archive fashion' },
     { src: 'img/85_.jpg', description: '', tags: 'fashion research, archive fashion, found media' },
     { src: 'img/57_Chalayan.jpeg', description: 'Chalayan', tags: 'Chalayan, fashion research, archive fashion' },
     { src: 'img/18_michele Lamy for I-D.png', description: '', tags: 'Michele Lamy, I-D magazine, fashion research' },
