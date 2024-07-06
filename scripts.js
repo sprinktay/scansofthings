@@ -71,9 +71,7 @@ const photos = [
 { src: 'img/89_AlexanderMcqueenSS1999.jpg', description: 'Alexander McQueen', tags: 'Alexander McQueen, fashion research, archive fashion' },																									
 { src: 'img/90_AlexanderMcqueen.jpg', description: 'Alexander McQueen', tags: 'Alexander McQueen, fashion research, archive fashion' },																									
 { src: 'img/91_AlexanderMcqueen_AW2001.jpg', description: 'Alexander McQueen AW2001', tags: 'Alexander McQueen, AW2001, runway collections' },																									
-{ src: 'img/92_AlexanderMcqueen_SS2009.jpg', description: 'Alexander McQueen SS2009', tags: 'Alexander McQueen, SS2009, runway collections' },																																																	
-{ src: 'img/95_AlexanderMcqueen_SS2009.jpg', description: 'Alexander McQueen SS2009', tags: 'Alexander McQueen, SS2009 runway, The Horn of Plenty runway, Alexander Lee McQueen late 2000s, runway collections' },
-{ src: 'img/94_AlexanderMcqueen_SS2009.jpg', description: 'Alexander McQueen SS2009', tags: 'Alexander McQueen, SS2009 runway, The Horn of Plenty runway, Lee McQueen 2009, Dark ethereal runway collections' }
+{ src: 'img/92_AlexanderMcqueen_SS2009.jpg', description: 'Alexander McQueen SS2009', tags: 'Alexander McQueen, SS2009, runway collections' }																																																	
 																									
 																			
 ];
