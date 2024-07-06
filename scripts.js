@@ -40,7 +40,7 @@ const photos = [
 { src: 'img/40_michele Lamy for I-D 3.png', description: 'Michele Lamy shot by Rick Owens', tags: 'Rick Owens, Owens Corp, Tyrone Dylan, ID Magazine archives, Rick Owens archive fashion, fashion research' },																									
 { src: 'img/41_vogue the jewelry.png', description: 'Vogue Jewelry', tags: 'Vogue, jewelry, fashion magazine' },																									
 { src: 'img/42_HussienChalayan.png', description: 'Hussein Chalayan', tags: 'Hussein Chalayan, fashion research, archive fashion' },																									
-{ src: 'img/52_Chalayan_AW2003.png', description: 'Chalayan AW2003', tags: 'Chalayan, Hussein Chalayan 2004, Chalayan runway collections, rare fashion scans, fashion research' },																									
+{ src: 'img/52_Chalayan_AW2003.jpg', description: 'Chalayan AW2003', tags: 'Chalayan, Hussein Chalayan 2004, Chalayan runway collections, rare fashion scans, fashion research' },																									
 { src: 'img/53_Chalayan_SS2004.png', description: 'Chalayan SS2004', tags: 'Chalayan, Hussein Chalayan 2004, Chalayan runway collections, rare fashion scans, fashion research' },																									
 { src: 'img/55_Chalayan_SS2000.png', description: 'Chalayan SS2000', tags: 'Chalayan, Hussein Chalayan, Chalayan AW2000, Autumn Winter 2000, UK Fashion Designers, runway collections' },																									
 { src: 'img/56_Chalayan_AW2000.png', description: 'Chalayan AW2000', tags: 'Chalayan, AW2000, runway collections' },																									
@@ -71,8 +71,7 @@ const photos = [
 { src: 'img/89_AlexanderMcqueenSS1999.jpg', description: 'Alexander McQueen', tags: 'Alexander McQueen, fashion research, archive fashion' },																									
 { src: 'img/90_AlexanderMcqueen.jpg', description: 'Alexander McQueen', tags: 'Alexander McQueen, fashion research, archive fashion' },																									
 { src: 'img/91_AlexanderMcqueen_AW2001.jpg', description: 'Alexander McQueen AW2001', tags: 'Alexander McQueen, AW2001, runway collections' },																									
-{ src: 'img/92_AlexanderMcqueen_SS2009.jpg', description: 'Alexander McQueen SS2009', tags: 'Alexander McQueen, SS2009, runway collections' },																									
-{ src: 'img/93_AlexanderMcqueen_AW1999.jpg', description: 'Alexander McQueen AW1999', tags: 'Alexander McQueen, AW1999, runway collections' },																									
+{ src: 'img/92_AlexanderMcqueen_SS2009.jpg', description: 'Alexander McQueen SS2009', tags: 'Alexander McQueen, SS2009, runway collections' },																																																	
 { src: 'img/95_AlexanderMcqueen_SS2009.jpg', description: 'Alexander McQueen SS2009', tags: 'Alexander McQueen, SS2009 runway, The Horn of Plenty runway, Alexander Lee McQueen late 2000s, runway collections' },
 { src: 'img/94_AlexanderMcqueen_SS2009.jpg', description: 'Alexander McQueen SS2009', tags: 'Alexander McQueen, SS2009 runway, The Horn of Plenty runway, Lee McQueen 2009, Dark ethereal runway collections' }
 																									
