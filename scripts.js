@@ -72,7 +72,6 @@ const photos = [
     { src: 'img/09_anothermagazine 3.png', description: 'Another Magazine', tags: 'Another Magazine, fashion magazine, fashion research' },
     { src: 'img/65_Chalayan_SS1999.png', description: 'Chalayan SS1999', tags: 'Chalayan, SS1999, runway collections' },
     { src: 'img/21_omnipel technologies.png', description: '', tags: 'omnipel technologies, fashion research' },
-    { src: 'img/99_AlexanderMcqueen_SS2009.jpg', description: 'Alexander McQueen SS2009', tags: 'Alexander McQueen, SS2009, runway collections' },
     { src: 'img/34_HussienChalayan_2.png', description: 'Hussein Chalayan', tags: 'Hussein Chalayan, fashion research, archive fashion' },
     { src: 'img/25_reikawakubo_AW2004_commedesgarcons2.jpg', description: 'Rei Kawakubo AW2004', tags: 'Rei Kawakubo, AW2004, commedesgarcons' }
 ];
