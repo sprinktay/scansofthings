@@ -1,19 +1,18 @@
 document.addEventListener("DOMContentLoaded", function() {
 const photos = [
 { src: 'img/02_Junyawatanabe_2001_commedesgarcons2.png', description: 'Junya Watanabe 2001', tags: 'Junya Watanabe, Junya Watanabe 2001, Junya Watanabe CDG, Junya Watanabe 2000s collections, Junya Watanabe for Comme Des Garcons, Junya Watanabe runway collections, archive Junya Watanabe, archival fashion, commedesgarcons' },																									
-{ src: 'img/03_032c.png', description: '', tags: '032c, fashion magazine, fashion research, fashion magazine scans, rare magazine scans, where to find magazine scans' },																									
+{ src: 'img/03_032c.png', description: '', tags: '032c, fashion magazine, fashion research, fashion magazine scans, rare magazine scans, where to find magazine scans' },																																																		
 { src: 'img/05_032c.png', description: '', tags: '032c, fashion magazine, fashion research' },																									
-{ src: 'img/05_032c.png', description: '', tags: '032c, fashion magazine, fashion research' },																									
-{ src: 'img/06_anothermagazine 1.png', description: 'Another Magazine', tags: 'Another Magazine, Another Magazine Issue 1, Another Magazine First Issue, Another Magazine 2000s, fashion magazine, fashion research' },																									
-{ src: 'img/06_anothermagazine 1.png', description: 'Another Magazine', tags: 'Another Magazine, fashion magazine, fashion research' },																									
+{ src: 'img/06_anothermagazine 1.png', description: 'Another Magazine', tags: 'Another Magazine, Another Magazine Issue 1, Another Magazine First Issue, Another Magazine 2000s, fashion magazine, fashion research' },																																																	
 { src: 'img/08_anothermagazine 4.png', description: 'Another Magazine', tags: 'Another Magazine, fashion magazine, fashion research' },																									
-{ src: 'img/09_anothermagazine 3.png', description: 'Another Magazine', tags: 'Another Magazine, fashion magazine, fashion research' },																									
-{ src: 'img/09_anothermagazine 3.png', description: 'Another Magazine', tags: 'Another Magazine, fashion magazine, fashion research' },																									
+{ src: 'img/09_anothermagazine 3.png', description: 'Another Magazine', tags: 'Another Magazine, fashion magazine, fashion research' },																																																	
 { src: 'img/107_JPG.png', description: '', tags: 'fashion research, archive fashion, found media' },																									
-{ src: 'img/11_john galliano for i-d the specator issue.png', description: 'John Galliano for I-D', tags: 'John Galliano, John Galliano for ID, Galliano early 2000s, I-D magazine 2000s, fashion research' },																									
-{ src: 'img/11_john galliano for i-d the specator issue.png', description: 'John Galliano for I-D', tags: 'John Galliano, I-D magazine, fashion research' },																									
+{ src: 'img/11_john galliano for i-d the specator issue.png', description: 'John Galliano for I-D', tags: 'John Galliano, John Galliano for ID, Galliano early 2000s, I-D magazine 2000s, fashion research' },																																																		
 { src: 'img/12_jeanpaukgaultier.png', description: 'Jean Paul Gaultier', tags: 'Jean Paul Gaultier, fashion history' },																									
-{ src: 'img/120_AlexanderMcqueen_.jpg', description: 'Alexander McQueen', tags: 'Alexander McQueen, fashion research, archive fashion' },																									
+{ src: 'img/119_AlexanderMcqueen.jpg', description: 'Alexander McQueen', tags: 'Alexander McQueen, fashion research, archive fashion' },
+{src: 'img/111_AlexanderMcqueen.jpg', description: 'Alexander McQueen', tags: 'Alexander McQueen, fashion research, archive fashion' },
+{src: 'img/117_AlexanderMcqueen_AW2009.jpg', description: 'Alexander McQueen AW 2009', tags: 'Alexander McQueen, Lee McQueen 2009, The Horn of Plenty McQueen, The Horn of Plenty 2009, fashion research, archive fashion' },
+{src: 'img/118_AlexanderMcqueen_AW2009.jpg', description: 'Alexander McQueen AW 2009', tags: 'Alexander McQueen, fashion research, archive fashion' },	
 { src: 'img/13_junyawatanabe_SS2002_commedesgarcons.jpg', description: 'Junya Watanabe SS2002', tags: 'Junya Watanabe, SS2002, commedesgarcons' },																									
 { src: 'img/14_anothermagazine 2.png', description: 'Another Magazine', tags: 'Another Magazine, fashion magazine, fashion research' },																									
 { src: 'img/14_dazed the drenched issue 4.png', description: 'Dazed: The Drenched Issue', tags: 'Dazed Magazine, fashion research, archive fashion' },																									
@@ -65,7 +64,7 @@ const photos = [
 { src: 'img/77_Margiela_1996.jpg', description: 'Margiela', tags: 'Margiela, fashion history' },																									
 { src: 'img/78_AnnD_1992.jpg', description: 'Ann Demeulemeester 1992', tags: 'Ann Demeulemeester, 1992, fashion history' },																									
 { src: 'img/79_Margiela_1989.jpg', description: 'Margiela', tags: 'Margiela 1989, fashion history, archive research, maison martin margiela 1980s' },																									
-{ src: 'img/78_Margiela_1989.jpg', description: 'Margiela', tags: 'Margiela 1989, fashion history, archive research, maison martin margiela 1989' },																									
+{ src: 'img/78_AnnD_1992.jpg', description: 'Ann Demeulemeester', tags: 'Ann Demeulemeester 1992, Ann d, Antwerp 6, Belgian Fashion Designers, Ann Demeulemeester 90s, fashion history, archive research, maison martin margiela 1989' },																									
 { src: 'img/83_JeanPaulGaultier_AW1995.jpg', description: 'Jean Paul Gaultier AW1995', tags: 'Jean Paul Gaultier, AW1995, runway collections' },																									
 { src: 'img/84_PierreCardin_1979.jpg', description: 'Pierre Cardin 1979', tags: 'Pierre Cardin, 1979, fashion history' },																									
 { src: 'img/85_.jpg', description: '', tags: 'fashion research, archive fashion, found media' },																									
@@ -74,7 +73,8 @@ const photos = [
 { src: 'img/91_AlexanderMcqueen_AW2001.jpg', description: 'Alexander McQueen AW2001', tags: 'Alexander McQueen, AW2001, runway collections' },																									
 { src: 'img/92_AlexanderMcqueen_SS2009.jpg', description: 'Alexander McQueen SS2009', tags: 'Alexander McQueen, SS2009, runway collections' },																									
 { src: 'img/93_AlexanderMcqueen_AW1999.jpg', description: 'Alexander McQueen AW1999', tags: 'Alexander McQueen, AW1999, runway collections' },																									
-{ src: 'img/95_AlexanderMcqueen_AW1999.jpg', description: 'Alexander McQueen AW1999', tags: 'Alexander McQueen, AW1999, runway collections' },																									
+{ src: 'img/95_AlexanderMcqueen_SS2009.jpg', description: 'Alexander McQueen SS2009', tags: 'Alexander McQueen, SS2009 runway, The Horn of Plenty runway, Alexander Lee McQueen late 2000s, runway collections' },
+{ src: 'img/94_AlexanderMcqueen_SS2009.jpg', description: 'Alexander McQueen SS2009', tags: 'Alexander McQueen, SS2009 runway, The Horn of Plenty runway, Lee McQueen 2009, Dark ethereal runway collections' }
 																									
 																			
 ];
