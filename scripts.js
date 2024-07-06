@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
 const photos = [
-    { src: 'img/39_Diesel Ads_Page_2.jpg', description: '', tags: 'fashion ads, archive fashion, fashion research' },
     { src: 'img/35_FutureBeauty_30YearsOfJapaneseFashion_Cover.jpg', description: '', tags: 'fashion magazine, japanese fashion, archive fashion' },
     { src: 'img/91_AlexanderMcqueen_AW2001.jpg', description: 'Alexander McQueen AW2001', tags: 'Alexander McQueen, AW2001, runway collections' },
     { src: 'img/67_Chalayan_AW1998.jpg', description: 'Chalayan AW1998', tags: 'Chalayan, AW1998, runway collections' },
@@ -30,13 +29,11 @@ const photos = [
     { src: 'img/14_dazed the drenched issue 4.png', description: 'Dazed: The Drenched Issue', tags: 'Dazed Magazine, fashion research, archive fashion' },
     { src: 'img/93_AlexanderMcqueen_AW1999.jpg', description: 'Alexander McQueen AW1999', tags: 'Alexander McQueen, AW1999, runway collections' },
     { src: 'img/05_032c.png', description: '', tags: '032c, fashion magazine, fashion research' },
-    { src: 'img/07_Margiela_1989.jpg', description: 'Margiela 1989', tags: 'Margiela, 1989, fashion history' },
     { src: 'img/41_vogue the jewelry.png', description: 'Vogue Jewelry', tags: 'Vogue, jewelry, fashion magazine' },
     { src: 'img/02_Junyawatanabe_2001_commedesgarcons2.png', description: 'Junya Watanabe 2001', tags: 'Junya Watanabe, 2001, commedesgarcons' },
     { src: 'img/72_Margiela_AW19971998.jpg', description: 'Margiela AW1997/1998', tags: 'Margiela, AW1997/1998, runway collections' },
     { src: 'img/43_HussienChalayan_1.png', description: 'Hussein Chalayan', tags: 'Hussein Chalayan, fashion research, archive fashion' },
     { src: 'img/85_.jpg', description: '', tags: 'fashion research, archive fashion, found media' },
-    { src: 'img/80_Vogue_the_Jewelry_2.png', description: 'Vogue Jewelry', tags: 'Vogue, jewelry, fashion magazine' },
     { src: 'img/57_Chalayan.jpeg', description: 'Chalayan', tags: 'Chalayan, fashion research, archive fashion' },
     { src: 'img/18_michele Lamy for I-D.png', description: '', tags: 'Michele Lamy, I-D magazine, fashion research' },
     { src: 'img/73_Margiela_1989.jpg', description: 'Margiela 1989', tags: 'Margiela, 1989, fashion history' },
@@ -53,14 +50,12 @@ const photos = [
     { src: 'img/26_reikawakubo_AW1997_commedesgarcons2.jpg', description: 'Rei Kawakubo AW1997', tags: 'Rei Kawakubo, AW1997, commedesgarcons' },
     { src: 'img/56_Chalayan_AW2000.png', description: 'Chalayan AW2000', tags: 'Chalayan, AW2000, runway collections' },
     { src: 'img/92_AlexanderMcqueen_SS2009.jpg', description: 'Alexander McQueen SS2009', tags: 'Alexander McQueen, SS2009, runway collections' },
-    { src: 'img/77_Margiela_1992.jpg', description: 'Margiela 1992', tags: 'Margiela, 1992, fashion history' },
-    { src: 'img/97_Chalayan_1999.jpg', description: 'Chalayan 1999', tags: 'Chalayan, 1999, fashion research' },
+    { src: 'img/77_Margiela_1996.jpg', description: 'Margiela', tags: 'Margiela, fashion history' },
     { src: 'img/03_032c.png', description: '', tags: '032c, fashion magazine, fashion research' },
     { src: 'img/39_Diesel Ads_Page_2.jpg', description: '', tags: 'fashion ads, archive fashion, fashion research' },
     { src: 'img/44_Vogue_The_Jewelry.png', description: 'Vogue Jewelry', tags: 'Vogue, jewelry, fashion magazine' },
     { src: 'img/58_Chalayan_SS2000.png', description: 'Chalayan SS2000', tags: 'Chalayan, SS2000, runway collections' },
     { src: 'img/09_anothermagazine 3.png', description: 'Another Magazine', tags: 'Another Magazine, fashion magazine, fashion research' },
-    { src: 'img/70_JunyaWatanabe_SS1999.png', description: 'Junya Watanabe SS1999', tags: 'Junya Watanabe, SS1999, runway collections' },
     { src: 'img/05_032c.png', description: '', tags: '032c, fashion magazine, fashion research' },
     { src: 'img/20_omnipel technologies2.png', description: '', tags: 'omnipel technologies, fashion research' },
     { src: 'img/53_Chalayan_SS2004.png', description: 'Chalayan SS2004', tags: 'Chalayan, SS2004, runway collections' },
@@ -84,9 +79,6 @@ const photos = [
     { src: 'img/21_omnipel technologies.png', description: '', tags: 'omnipel technologies, fashion research' },
     { src: 'img/99_AlexanderMcqueen_SS2009.jpg', description: 'Alexander McQueen SS2009', tags: 'Alexander McQueen, SS2009, runway collections' },
     { src: 'img/34_HussienChalayan_2.png', description: 'Hussein Chalayan', tags: 'Hussein Chalayan, fashion research, archive fashion' },
-    { src: 'img/97_Chalayan_1999.jpg', description: 'Chalayan 1999', tags: 'Chalayan, 1999, fashion research' },
-    { src: 'img/77_Margiela_1992.jpg', description: 'Margiela 1992', tags: 'Margiela, 1992, fashion history' },
-    { src: 'img/24_reikawakubo_AW2004_commedesgarcons2.jpg', description: 'Rei Kawakubo AW2004', tags: 'Rei Kawakubo, AW2004, commedesgarcons' },
     { src: 'img/25_reikawakubo_AW2004_commedesgarcons2.jpg', description: 'Rei Kawakubo AW2004', tags: 'Rei Kawakubo, AW2004, commedesgarcons' }
 ];
 
